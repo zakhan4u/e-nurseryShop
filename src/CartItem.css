@@ -6,13 +6,13 @@
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
   background-color: white;
-  width: 500px;
+  width: 100px;
   gap: 30px;
 }
 
 .cart-item-image {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   /* object-fit: contain; */
   margin-right: 20px;
 }
@@ -184,6 +184,10 @@
       flex-direction: column; /* Change flex direction to stack items vertically */
       align-items: flex-start; /* Align items to the start of the container */
       width: 100%; /* Set width to full width */
+    }
+    .cart-bg {
+      background-color: #D3D3D3
+      
     }
   
     .cart-item-image {
